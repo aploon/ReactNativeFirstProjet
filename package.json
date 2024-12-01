@@ -7,11 +7,18 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
     "react": "18.3.1",
-    "react-native": "0.76.3"
+    "react-native": "0.76.3",
+    "react-native-web": "^0.19.13",
+    "vite": "^6.0.1",
+    "vite-plugin-react-native-web": "^1.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
